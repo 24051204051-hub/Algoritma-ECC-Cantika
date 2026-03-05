@@ -37,6 +37,9 @@ Fungsi decrypt() digunakan untuk mengembalikan ciphertext menjadi pesan asli.
 - Pesan asli diperoleh dengan rumus M = C2 - d * C1.
 
 8. Demonstrasi Program
-Program kemudian dijalankan untuk menampilkan private key, public key, proses enkripsi, ciphertext, serta hasil dekripsi. Jika implementasi berhasil, pesan yang didekripsi akan sama dengan pesan awal sebelum dienkripsi.
-Demonstrasi Program
-Program kemudian dijalankan untuk menampilkan private key, public key, proses enkripsi, ciphertext, serta hasil dekripsi. Jika implementasi berhasil, pesan yang didekripsi akan sama dengan pesan awal sebelum dienkripsi.
+Program kemudian dijalankan untuk menampilkan seluruh proses ECC mulai dari pembangkitan kunci, enkripsi, hingga dekripsi pesan. Output program akan menampilkan nilai private key, public key, ciphertext (C1, C2), serta hasil dekripsi.
+Pada bagian akhir akan muncul output seperti:
+Decrypted Message : (10, 7). Nilai tersebut merupakan titik pesan asli pada kurva eliptik yang berhasil dikembalikan setelah proses dekripsi. Jika nilai hasil dekripsi sama dengan pesan awal sebelum dienkripsi, maka dapat disimpulkan bahwa implementasi algoritma ECC pada program telah berjalan dengan benar.
+
+<img width="561" height="79" alt="image" src="https://github.com/user-attachments/assets/92396b5f-99c1-4fee-a83e-65f44a4fc283" />
+
